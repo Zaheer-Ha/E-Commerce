@@ -37,7 +37,7 @@ export default function Home() {
                                                 <img src="/assets/images/demoes/demo7/banners/banner-2.jpg" style={{ backgroundColor: "#ccc" }} alt="banner" />
                                             {/* </figure> */}
                                             <div className="banner-layer">
-                                                <h3 className="m-b-2">Porto Watches</h3>
+                                                <h3 className="m-b-2"> Watches</h3>
                                                 <h4 className="m-b-2 text-secondary"><sup className="text-dark"><del>20%</del></sup>30%<sup>OFF</sup></h4>
                                                 <a href="demo7-shop.html" className="btn btn-dark text-uppercase ls-10">Shop
                                                     Now</a>
@@ -161,7 +161,7 @@ export default function Home() {
                                     {/* <!-- End .testimonial-owner --> */}
 
                                     <blockquote>
-                                        <p>Hello, I want to thank you for creating a great template and for the excellent and quick support and help that you have been providing to me as I begin to work with it.</p>
+                                        <p>Hello, I want to thank you for creating a great platform and for the excellent and quick support and help that you have been providing to me as I begin to shop with it.</p>
                                     </blockquote>
                                 </div>
                                 {/* <!-- End .testimonial --> */}

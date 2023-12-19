@@ -10,7 +10,7 @@ export default function Footer() {
                     <div className="widget">
                         <h4 className="widget-title">About Us</h4>
                         <a href="demo7.html">
-                            <img src="assets/images/logo-footer.png" alt="Logo" className="logo-footer" />
+                            <img src="assets/images/logo-footer.png" alt="Logo" className="logo-footer" style={{'border-radius': 30}}  />
                         </a>
                         <p className="m-b-4 ls-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec vestibulum magna, et dapibus lacus. Duis nec vestibulum magna, et dapibus lacus.</p>
                         <div className="social-icons">
@@ -51,11 +51,11 @@ export default function Footer() {
 
                         <ul className="links">
                             <li><a href="#">Top Jeans Collection<br /><span className="font1">JULY 23,
-                                        2021</span></a></li>
+                                        2023</span></a></li>
                             <li><a href="#">Post Format Standard<br /><span className="font1">FEBRUARY 26,
-                                        2020</span></a></li>
+                                        2023</span></a></li>
                             <li><a href="#">Post Format Video<br /><span className="font1">FEBRUARY 26,
-                                        2019</span></a></li>
+                                        2023</span></a></li>
                         </ul>
                     </div>
                     {/* <!-- End .widget --> */}
@@ -86,7 +86,7 @@ export default function Footer() {
     <div className="container">
         <div className="footer-bottom d-sm-flex align-items-center">
             <div className="footer-left">
-                <span className="footer-copyright">© Porto eCommerce. 2021. All Rights Reserved</span>
+                <span className="footer-copyright">© Ajeeb eCommerce. 2023. All Rights Reserved</span>
             </div>
 
             <div className="footer-right ml-auto mt-1 mt-sm-0">

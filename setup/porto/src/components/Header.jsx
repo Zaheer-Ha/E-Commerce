@@ -98,7 +98,7 @@ useEffect(()=>{
                         </button>
 
                         <Link to="demo7.html" className="logo w-100">
-                            <img src="assets/images/logo-black.png" alt="Porto Logo" />
+                            <img src="assets/images/logo-black.png" alt="Porto Logo" style={{'border-radius': 50}} />
                         </Link>
 
                         <nav className="main-nav w-100">
