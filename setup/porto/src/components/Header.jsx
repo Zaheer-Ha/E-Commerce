@@ -5,6 +5,7 @@ import axios from 'axios';
 export default function Header() {
 const{Logout}=useContext(AuthContext)
 const [usercart,setUsercart]=useState(0)
+
 useEffect(()=>{
     if(!sessionStorage.getItem("token")){
         setUsercart(0)
@@ -98,7 +99,7 @@ useEffect(()=>{
                         </button>
 
                         <Link to="demo7.html" className="logo w-100">
-                            <img src="assets/images/logo-black.png" alt="Porto Logo" style={{'border-radius': 50}} />
+                            <img src="assets/images/logo-black.png" alt="Logo" style={{'border-radius': 50}} />
                         </Link>
 
                         <nav className="main-nav w-100">
@@ -209,7 +210,7 @@ useEffect(()=>{
                                                 </h4>
 
                                                 <span className="cart-product-info">
-                                                    <span className="cart-product-qty">1</span> × $35.00
+                                                    <span className="cart-product-qty">1</span>  $35.00
                                                 </span>
                                             </div>
                                             {/* <!-- End .product-details --> */}

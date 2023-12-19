@@ -10,7 +10,7 @@ export default function Footer() {
                     <div className="widget">
                         <h4 className="widget-title">About Us</h4>
                         <a href="demo7.html">
-                            <img src="assets/images/logo-footer.png" alt="Logo" className="logo-footer" style={{'border-radius': 30}}  />
+                            <img src="assets/images/logo-footer.png" alt="Logo" className="logo-footer" style={{'border-radius': 30}}/>
                         </a>
                         <p className="m-b-4 ls-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec vestibulum magna, et dapibus lacus. Duis nec vestibulum magna, et dapibus lacus.</p>
                         <div className="social-icons">
